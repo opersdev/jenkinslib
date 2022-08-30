@@ -9,7 +9,7 @@ def SaltDeploy(hosts,func){
 
 //ansible
 
-def AnsibleDeploy(host,func){
+def AnsibleDeploy(hosts,func){
   sh "ansible ${func} ${hosts}"
   
 }
